@@ -1,0 +1,271 @@
+body {
+    
+    font-family: arial,heveltical,sans-serif,;
+    margin:0px;
+}
+
+#container{
+    
+    width: 1050px;
+    border: ;
+    height: auto;
+    margin: 0px auto;
+    
+}
+#research{
+    
+    color: darkred;
+}
+
+#header{
+    
+    padding: 10px 0;
+    float: left;
+    
+}
+
+#brand{
+    
+    float: left;
+}
+
+h1 a{
+    
+    font-size: 40px;
+    font-weight: 100px;
+    color:darkred;
+    text-decoration: none;
+        
+    
+}
+
+p{
+ padding: 0 10px;   
+   color: darkred;
+   
+}
+.ul-list{
+    
+    list-style: circle;
+    font-family: sans-serif;
+    font-size: 14px;
+    color:darkred;
+}
+
+.text{
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color:chocolate;
+    background: white url(image.png)right center no-repeat;
+    
+}
+.font{
+    color: red;
+    font-weight: bolder;
+    
+}
+
+.clear{
+    
+   
+    clear:both;
+}
+
+ul{
+    
+    list-style: none;
+}
+
+#menu{
+    
+    height:60px;
+    background: linear-gradient(#faf594,rgba(106,0,16,0.6));
+    padding: 7px 0;
+    border-radius: 3px;
+    border-color: darkred;
+    border-style: groove;
+}
+
+#menu ul li{
+    
+    float:left;
+    padding: 0 30px;
+    height: 30px;
+    border-right: 1px solid lightgoldenrodyellow;
+    line-height: 30px;
+}
+
+#menu ul li:last-child{
+    
+    border-right: none;
+}
+
+#menu ul li a{
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color:lightgoldenrodyellow;   
+}
+
+#menu ul li a:hover,#menu ul li a.active{
+    
+    font-size: 20px;
+    font-weight: bolder;
+    color: darkred;
+    transition:font-size 0.3s ease ;
+       -webkit-transition:font-size 0.3s ease ; /* safari browser,operamini,mozilla firefox,microsoft windows,*/
+       -o-transition:font-size 0.3s ease ;
+       -ms-transition:font-size 0.3s ease ;
+       -mz-transition:font-size 0.3s ease ;
+}
+
+.submit{
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    color: antiquewhite;
+    background:linear-gradient(yellow,darkred);
+    font-size:15px;
+    border-radius: 5px;
+}
+
+#searchbox{
+    
+    float: right;
+    background: linear-gradient(#faf594,rgba(106,0,16,0.6));
+    width: 400px;
+    height: 60px;
+    padding: 15px 15px 0 15px;
+    margin: 10px 0 0 0;
+    border-radius: 5px;
+    border:2px groove darkred;
+}
+
+.sidebar{
+    
+    height: 500px;
+    width: 400px;
+    border: 2px groove darkred;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 10px 30px;
+    margin: ;
+}
+
+.sidebar h3{
+    color: darkred;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.sidebar ul li a{
+    
+    text-decoration: none;
+    font-size: 20px;
+    color: darkred;
+}
+
+.sidebar ul li a:hover,.sidebar ul li a.active{
+    
+    text-decoration: underline;
+      font-size: 23px;
+    color: red;
+    transition: font-size 0.3s ease;
+      -webkit-transition:font-size 0.3s ease ; /* safari browser,operamini,mozilla firefox,microsoft windows,*/
+       -o-transition:font-size 0.3s ease ;
+       -ms-transition:font-size 0.3s ease ;
+       -mz-transition:font-size 0.3s ease ;
+    
+       
+}
+
+.sidebar ul li{
+    
+    padding: 5px 0;
+}
+
+#side-left{
+    
+    float:right;
+}
+
+#side-right{
+    float:left;
+
+}
+
+#side-right ul li {
+    list-style-image: url(image2.png);
+    padding-left: 10px;
+}
+
+#side-left ul li {
+    list-style-image: url(tick.png);
+    padding-left: 10px;
+    
+}
+
+.footer{
+    
+    height: 100px;
+    background: linear-gradient(#faf594,rgba(106,0,16,0.6));
+    padding: 10px 30px;
+     border-radius: 5px;
+    border-color: darkred;
+    border-style: groove;
+    margin-bottom: 10px;
+    width: 1100px;
+    position: relative;
+    right: 52px;
+    
+}
+
+#company-content{
+    
+    font-family: monospace;
+    text-align: center;
+    line-height: 60px;
+    font-weight: bold;
+    
+}
+.footer ul li a{
+    text-decoration: none;
+    text-align:;
+    display: inline;
+    color: lightgoldenrodyellow;
+     line-height: 40px;
+    position: relative;
+    left: 170px;
+    border-right:1px solid lightgoldenrodyellow;
+    padding-right: 10px;
+    
+}
+
+.footer ul li a:hover{
+    
+      font-size: 17px;
+      color: darkred;
+      transition: font-size 0.3s linear;
+      -webkit-transition:font-size 0.3s ease ; /* safari browser,operamini,mozilla firefox,microsoft windows,*/
+       -o-transition:font-size 0.3s ease ;
+       -ms-transition:font-size 0.3s ease ;
+       -mz-transition:font-size 0.3s ease ;
+    
+}
+
+.footer ul li{
+    
+    display: inline;
+    padding: 5px;
+    font-weight: bold;
+    
+}
+
+.footer ul li a:last-of-type{
+    
+    border-right:none;
+}
